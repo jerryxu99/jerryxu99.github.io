@@ -70,15 +70,6 @@ ul li::before {
   color: #10a2f5;
 }
 
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #e9bc3f;
-}
-
 body.dark-mode {
   background: #24252d;
 }
@@ -87,6 +78,15 @@ body.dark-mode p,
 body.dark-mode a,
 body.dark-mode h1 {
   color: #cacacc;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e9bc3f;
 }
 
 .dark-mode-toggler {
